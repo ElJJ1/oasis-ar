@@ -1,0 +1,239 @@
+@font-face {
+    font-family: norwester;
+    src: url(/fonts/norwester.regular.otf);
+}
+@font-face {
+    font-family: proximanova;
+    src: url(/fonts/ProximaNovaFont.otf);
+}
+
+/* ||SECCIONES Y CUERPO|| */
+
+.titulo {
+    margin-top: 30px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+.titulo-h1 {
+    margin-right: 5px;
+}
+.oasish2{
+    font-size: 2em;
+    border: 3px solid #0c0c0c;
+}
+.linea-titulo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.linea-titulo {
+    width: 10%;
+    height: 2px;
+    background-color: #0c0c0c;
+    box-shadow: 0 2px 5px #0c0c0c;
+}
+#body-secciones {
+
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.sec1,
+.sec2,
+.sec3{
+    background-color: #bfbfbf;
+    width: 95%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #bfbfbf;
+}
+.sec1 {
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.sec2 {
+    margin-bottom: 50px;
+}
+.tar {
+    width: 19.9%;
+    height: 98%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    border-right: 5px solid #bfbfbf;
+    overflow: hidden;
+    min-width: 210px;
+    overflow: hidden;
+}
+.tar:last-child{
+    border-right: 0;
+}
+.s-img{
+    /* background-color: red; */
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+}
+.s-img a img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all .5s;
+}
+.s-img a img:hover {
+    transform: scale(1.1, 1.1);
+    transition: all .5s;
+}
+.s-info {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+.info-nombre,
+.info-precio {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.info-precio {
+    color: rgb(0, 165, 0);
+}
+.destacado{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0c0c0c;
+    font-size: 1.3em;
+    font-family: 'proximanova';
+    border-top: 5px solid #efefef;
+    border-left: 5px solid #efefef;
+    border-right: 5px solid #efefef;
+    padding: 0 10px 0 10px;
+    transition: all .5s;
+    background-color: #efefef;
+    
+}
+.destacado:hover {
+    background-color: #fafafa;
+    transition: all .5s;
+    border-color: #bfbfbf;
+}
+/* ||FIN SECCIONES Y CUERPO|| */
+
+/* FOOTER */
+
+#footer {
+    background-color: #bfbfbf;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    width: 99%;
+    height: 100%;
+    justify-content: space-evenly;
+    font-family: 'proximanova';
+}
+.f1 {
+    width: 20%;
+    
+}
+.texto-seguinos {
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+.oasis-ig {
+
+    margin-top: 10px;
+}
+
+.link-ig{
+    color: #0c0c0c;
+    font-size: 1.15em;
+}
+.link-ig:hover {
+    color: #efefef;
+}
+.texto-ig {
+    margin-left: 5px;
+    color: #0c0c0c;
+    font-size: 1.1em;
+}
+.oasis-ig .link-ig img {
+    width: 13px;
+}
+.f2 {
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.f2-logo {
+    margin-top: 20px;
+}
+.creador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+}
+
+.img-ig {
+    width: 13px;
+}
+.creador a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.span-ig {
+    margin-left: 5px;
+}
+.copyright {
+    margin-bottom: 10px;
+    font-size: 1em;
+    position: absolute;
+    bottom: 0;
+}
+
+.f3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.f3 .texto-ubicacion {
+    height: 10%;
+    font-size: 1.2em;
+    /* margin-bottom: 10px; */
+}
+/* .copyright-celu {
+    display: none;
+} */
+.f2-celu {
+    display: none;
+}
+
+/* FIN FOOTER */
